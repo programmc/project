@@ -7,4 +7,34 @@
 .header{
     background-color:#232f3e ;
     border-radius: 5px 5px 0 0 ;
+    color: #bcbdc7;
+}
+.header a{
+    color: #bcbdc7;
+    border-bottom: 1px solid #303e4f;
+    transition: all 0.3s linear;
+}
+.topinfo {
+    display: flex;
+    justify-content: space-between;
+}
+.acountlist{
+    display: flex;
+}
+.acountlistlink{
+    padding: 5px 10px;
+    display: block;
+}
+.acountlistlink>i{
+    padding-left: 4px;
+}
+.acountlistlink:hover{
+    color: #fff;
+}
+.language{
+    padding: 5px 0 0 10px;
+}
+.fa-icon{
+    width: 20px;
+    vertical-align: middle;
 }
