@@ -13,8 +13,8 @@
 <body>
     <div class="wrapper">
     <header class="header">
-        <div class="topinfo">
-            <ul class="acountlist">
+        <div class="topinfo flex">
+            <ul class="acountlist flex">
                 <li class="acountlistitem"><a href="" class="acountlistlink">
                     <i class="fas fa-user"></i>ثبت نام</a></li>
                 <li class="acountlistitem"><a href="" class="acountlistlink">
@@ -24,7 +24,34 @@
         <img class="fa-icon" src="image/icon/iran.png" alt="persion language"> فارسی 
         </div>
         </div>
-        <div class="headerinfo"></div>
+        <div class="headerinfo flex">
+            <div class="logo"><img src="image/logo.png" alt="logo"></div>
+            <div class="searchbox flex">
+                <select name="" id="" class="categorylist">
+                    <option value="1">کامپیوتر</option>
+                    <option value="2">موبایل</option>
+                    <option value="3">شبکه</option>
+                </select>
+                <input type="text" class="searchinput" placeholder="عنوان را وارد کنید">
+                <a href="" class="btnsearch"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="contact flex">
+                <div class="contacticon"><i class="fas fa-headset contacti"></i></div>
+                <div class="contactinfo">
+                    <span>شماره تماس فروشگاه:</span>
+                    <br>
+                    <span>تلفن:2556778888</span>
+                </div>
+            </div>
+            <div class="contact flex">
+                <div class="contacticon"><i class="fas fa-shopping-basket carticon"></i></div>
+                <div class="contactinfo">
+                    <span>سبد خرید</span>
+                    <br>
+                    <span>2محصول به مبلغ 12000</span>
+                </div>
+            </div>
+        </div>
         <nav class="mainnav"> </nav>
     </header>
     <main></main>

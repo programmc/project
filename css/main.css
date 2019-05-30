@@ -8,18 +8,15 @@
     background-color:#232f3e ;
     border-radius: 5px 5px 0 0 ;
     color: #bcbdc7;
+  
 }
 .header a{
     color: #bcbdc7;
-    border-bottom: 1px solid #303e4f;
     transition: all 0.3s linear;
 }
 .topinfo {
-    display: flex;
     justify-content: space-between;
-}
-.acountlist{
-    display: flex;
+    border-bottom: 1px solid #303e4f;
 }
 .acountlistlink{
     padding: 5px 10px;
@@ -37,4 +34,44 @@
 .fa-icon{
     width: 20px;
     vertical-align: middle;
+}
+
+.headerinfo{
+    padding: 20px;
+}
+.searchbox{
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+.categorylist{
+border-radius: 0px 20px 20px 0;
+padding: 8px 15px;
+border: none;
+}
+.searchinput{
+    padding: 8px 15px; 
+    border: none;
+}
+.btnsearch{
+    padding: 10px 15px; 
+    color: #fff !important;
+    background-color: #f4a137;
+    border-radius: 20px 0px 0px 20px;
+}
+.contact{
+    color: #fff;
+    margin:0 0.8em;
+    font-size: 0.9em;
+}
+.contacti{
+    margin-top: 5px;
+}
+.contacticon{
+    font-size: 2em;
+    padding: 0 0.4em;
+}
+.carticon{
+    background-color: #f4a137;
+    padding: 5px;
 }
