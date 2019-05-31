@@ -1,6 +1,7 @@
 .wrapper{
     width: 90%;
     margin: 10px auto;
+    box-shadow: 0 0 10px 0 silver;
 }
 
 /* header */
@@ -132,4 +133,38 @@ right: 0;
     height: 22px;
     top:-9px;
     right: 20%;
+}
+/* main */
+.main{
+background-color: #fff;
+}
+.slider{
+    height: 422px;
+    padding: 10px;
+}
+.r-ads{
+    width: 25%;
+    margin-left: 10px;
+}
+.l-ads{
+   flex-grow: 1;
+}
+.r-ads img
+,.l-ads img{
+    height: 100%;
+    width: 100%;
+}
+.topprodouct{
+    background-color: rgb(220, 215, 215);
+}
+.topprodouctitem{
+    flex-grow: 1;
+    padding: 10px;
+}
+.topprodouctimge img{
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.topprodouctinfo{
+    align-self: center;
 }
