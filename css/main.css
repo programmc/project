@@ -244,3 +244,17 @@ flex-wrap: wrap;
     padding: 2px;
     margin: 2px;
 }
+.banner{
+  padding: 10px;
+}
+.banner img{
+    width: 100%;
+    display: block;
+}
+.newproductitem{
+    width: 25%;
+}
+.newproduct h4{
+    padding-right: 10px;
+    border-bottom: 1px solid #ddd;
+}
