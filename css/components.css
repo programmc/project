@@ -1,0 +1,20 @@
+.btn{
+    border: 1px solid #ddd;
+    padding: 5px 8px;
+    transition: all 0.1s linear;
+    color: rgb(85, 85, 85);
+}
+
+.btnsolid:hover{
+    background-color: #f4a137;
+    color:#fff;
+    border-color: #f4a137;
+}
+.btnreg:hover{
+    color:#f4a137;
+    border-color: #f4a137;
+}
+.btndefult {
+    background-color: #F4A137;
+    color: #fff;
+}
