@@ -258,3 +258,31 @@ flex-wrap: wrap;
     padding-right: 10px;
     border-bottom: 1px solid #ddd;
 }
+.collectiondetailitem{
+margin: 5px;
+background-color: #eee;
+border: 1px solid transparent;
+}
+.collectiondetailitem:hover{
+    border-color: #f4a137;
+    background-color: #fff;
+}
+.collectionitem{
+    width: 16.5%;
+    flex-grow: 1;
+    text-align: center;
+}
+.collectionlink{
+    display: block;
+    border-bottom:3px solid #f4a137;
+    position: relative;
+}
+.collectiontitle{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
